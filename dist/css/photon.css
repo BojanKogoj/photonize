@@ -1,0 +1,240 @@
+/* Firefox Colors SCSS Variables v1.3.0 */
+button,
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: none;
+  border-radius: 2px;
+  font-size: 13px;
+  cursor: pointer;
+  height: 32px;
+  padding: 8px; }
+  button.disabled, button:disabled,
+  .btn.disabled,
+  .btn:disabled {
+    opacity: .65; }
+  button.btn-micro,
+  .btn.btn-micro {
+    height: 24px;
+    padding: 5px;
+    font-size: 11px; }
+  button.btn-puffy,
+  .btn.btn-puffy {
+    height: 48px;
+    padding: 16px;
+    font-size: 15px;
+    border-radius: 4px; }
+  button.btn-primary,
+  .btn.btn-primary {
+    background-color: #0060df;
+    color: white; }
+    button.btn-primary:hover,
+    .btn.btn-primary:hover {
+      background-color: #003eaa; }
+    button.btn-primary:active,
+    .btn.btn-primary:active {
+      background-color: #002275; }
+  button.btn-default,
+  .btn.btn-default {
+    background-color: rgba(12, 12, 13, 0.1);
+    color: #0c0c0d; }
+    button.btn-default:hover,
+    .btn.btn-default:hover {
+      background-color: rgba(12, 12, 13, 0.2); }
+    button.btn-default:active,
+    .btn.btn-default:active {
+      background-color: rgba(12, 12, 13, 0.3); }
+
+label {
+  font-size: 13px;
+  display: block; }
+  label.label-inline {
+    display: inline-block; }
+
+.form-group {
+  margin-bottom: 15px; }
+
+.input-field {
+  height: 30px;
+  border: 1px solid #d7d7db;
+  font-size: 15px;
+  border-radius: 2px;
+  width: 100%; }
+  .input-field:hover {
+    border: 1px solid #737373; }
+  .input-field:focus {
+    border: 1px solid #0a84ff; }
+  .input-field:invalid {
+    border: 1px solid #ff0039; }
+
+a:not(.btn) {
+  color: #0060df;
+  text-decoration: none; }
+  a:not(.btn):hover {
+    text-decoration: underline; }
+  a:not(.btn):active {
+    color: #003eaa; }
+
+.message-bar {
+  background-color: #ededf0;
+  padding: 4px;
+  font-weight: 400;
+  font-size: 13px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center; }
+  .message-bar p {
+    line-height: 1;
+    margin: 0; }
+  .message-bar span {
+    line-height: 1.5;
+    margin-right: 4px; }
+  .message-bar button {
+    background-color: #0060df;
+    color: #ededf0;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    font-weight: 700;
+    font-size: 90%;
+    height: 24px;
+    margin-left: 8px; }
+    .message-bar button:hover {
+      background-color: #003eaa; }
+    .message-bar button:active {
+      background-color: #002275; }
+  .message-bar.message-attention {
+    background-color: #00feff; }
+    .message-bar.message-attention button {
+      background-color: #00c8d7;
+      color: #002d3e; }
+      .message-bar.message-attention button:hover {
+        background-color: #008ea4;
+        color: #fff; }
+      .message-bar.message-attention button:active {
+        background-color: #005a71;
+        color: #fff; }
+  .message-bar.message-success {
+    background-color: #30e60b; }
+    .message-bar.message-success button {
+      background-color: #12bc00;
+      color: #003706; }
+      .message-bar.message-success button:hover {
+        background-color: #058b00;
+        color: #fff; }
+      .message-bar.message-success button:active {
+        background-color: #006504;
+        color: #fff; }
+  .message-bar.message-warning {
+    background-color: #ffe900; }
+    .message-bar.message-warning button {
+      background-color: #d7b600;
+      color: #3e2800; }
+      .message-bar.message-warning button:hover {
+        background-color: #a47f00; }
+      .message-bar.message-warning button:active {
+        background-color: #715100;
+        color: #fff; }
+  .message-bar.message-error {
+    background-color: #ff0039;
+    color: #fff; }
+    .message-bar.message-error button {
+      background-color: #d70022; }
+      .message-bar.message-error button:hover {
+        background-color: #a4000f; }
+      .message-bar.message-error button:active {
+        background-color: #5a0002; }
+    .message-bar.message-error .icon-16, .message-bar.message-error .icon-info-16, .message-bar.message-error .icon-help-16, .message-bar.message-error .icon-warning-16 {
+      background-color: #fff; }
+
+.icon-16, .icon-info-16, .icon-help-16, .icon-warning-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin: 4px;
+  fill: currentColor;
+  mask-size: cover;
+  background-color: #000; }
+
+.icon-info-16 {
+  mask: url("../../node_modules/firefox-svg-icons/icons/alert/info-16.svg") no-repeat center center; }
+
+.icon-help-16 {
+  mask: url("../../node_modules/firefox-svg-icons/icons/alert/help-16.svg") no-repeat center center; }
+
+.icon-warning-16 {
+  mask: url("../../node_modules/firefox-svg-icons/icons/alert/warning-16.svg") no-repeat center center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%; }
+
+.col-1 {
+  flex: 0 0 8.33333%; }
+
+.col-2 {
+  flex: 0 0 16.66667%; }
+
+.col-3 {
+  flex: 0 0 25%; }
+
+.col-4 {
+  flex: 0 0 33.33333%; }
+
+.col-5 {
+  flex: 0 0 41.66667%; }
+
+.col-6 {
+  flex: 0 0 50%; }
+
+.col-7 {
+  flex: 0 0 58.33333%; }
+
+.col-8 {
+  flex: 0 0 66.66667%; }
+
+.col-9 {
+  flex: 0 0 75%; }
+
+.col-10 {
+  flex: 0 0 83.33333%; }
+
+.col-11 {
+  flex: 0 0 91.66667%; }
+
+.col-12 {
+  flex: 0 0 100%; }
+
+.col, [class*="col-"] {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "system-ui", "Ubuntu", "Segoe UI", "San Francisco"; }
+
+.background-bright {
+  background-color: #f9f9fa; }
+
+.shadow-10 {
+  box-shadow: 0 1px 4px rgba(12, 12, 13, 0.1); }
+
+.shadow-20 {
+  box-shadow: 0 2px 8px rgba(12, 12, 13, 0.1); }
+
+.shadow-30 {
+  box-shadow: 0 4px 16px rgba(12, 12, 13, 0.1); }

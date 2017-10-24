@@ -1,0 +1,34 @@
+label {
+    font-size: $body-10;
+    display: block;
+
+    &.label-inline {
+        display: inline-block;
+    }
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input-field {
+    height: 30px;
+    border: 1px solid $grey-30;
+    font-size: $body-20;
+    border-radius: 2px;
+    width: 100%;
+
+    &:hover {
+        border: 1px solid $grey-50;
+    }
+
+    &:focus {
+        border: 1px solid $blue-50;
+    }
+
+    &:invalid {
+        border: 1px solid $red-50;
+    }
+}
+
+

@@ -1,0 +1,57 @@
+
+button,
+.btn {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+
+    &.disabled,
+    &:disabled {
+        opacity: .65;
+    }
+
+    height: 32px;
+    padding: 8px;
+
+    &.btn-micro {
+        height: 24px;
+        padding: 5px;
+        font-size: 11px;
+    }
+    
+    &.btn-puffy {
+        height: 48px;
+        padding: 16px;
+        font-size: 15px;
+        border-radius: 4px;
+    }
+
+
+    &.btn-primary {
+        background-color: $blue-60;
+        color: white;
+        &:hover {
+            background-color: $blue-70; 
+        }
+        &:active {
+            background-color: $blue-80; 
+        }
+    }
+    
+    &.btn-default {
+        background-color: rgba($grey-90, 0.1);
+        color: $grey-90;
+        &:hover {
+            background-color: rgba($grey-90, 0.2);
+        }
+        &:active {
+            background-color: rgba($grey-90, 0.3);
+        }
+    }
+}

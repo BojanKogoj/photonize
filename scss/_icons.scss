@@ -1,0 +1,26 @@
+$path: '../../node_modules/firefox-svg-icons/icons';
+
+.icon-16 {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 4px;
+    fill: currentColor;
+    mask-size: cover;
+    background-color: #000;
+}
+
+.icon-info-16 {
+    @extend .icon-16;
+    mask: url('#{$path}/alert/info-16.svg') no-repeat center center;
+}
+
+.icon-help-16 {
+    @extend .icon-16;
+    mask: url('#{$path}/alert/help-16.svg') no-repeat center center;
+}
+
+.icon-warning-16 {
+    @extend .icon-16;
+    mask: url('#{$path}/alert/warning-16.svg') no-repeat center center;
+}

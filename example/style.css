@@ -1,0 +1,23 @@
+body {
+    padding: 20px 40px;
+}
+
+.p {
+    margin: 0 0 10px;
+}
+
+.shadow-10, .shadow-20, .shadow-30 {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.messages-container {
+    width: 400px;
+}
+
+.col, [class*="col-"] {
+    border: 1px solid #777;
+}

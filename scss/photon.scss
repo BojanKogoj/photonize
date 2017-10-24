@@ -1,0 +1,30 @@
+@import "../node_modules/photon-colors/colors.scss";
+@import "variables";
+@import "buttons";
+@import "input";
+@import "link";
+@import "messagebar";
+@import "icons";
+@import "grid";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "system-ui", "Ubuntu", "Segoe UI", "San Francisco";
+}
+
+.background-bright {
+    background-color: $grey-10;
+}
+
+.shadow-10 {
+    box-shadow: $shadow-10;
+}
+.shadow-20 {
+    box-shadow: $shadow-20;
+}
+.shadow-30 {
+    box-shadow: $shadow-30;
+}
