@@ -1,4 +1,4 @@
-$path: '../../node_modules/firefox-svg-icons/icons';
+$path: '../../node_modules/photon-icons/icons';
 
 .icon-16 {
     width: 16px;
@@ -24,3 +24,4 @@ $path: '../../node_modules/firefox-svg-icons/icons';
     @extend .icon-16;
     mask: url('#{$path}/alert/warning-16.svg') no-repeat center center;
 }
+

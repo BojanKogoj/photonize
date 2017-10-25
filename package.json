@@ -1,5 +1,5 @@
 {
-  "name": "webextensions-photon",
+  "name": "photonize",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {
     "photon-colors": "^1.3.0",
     "photon-icons": "^2.0.0"
   }
