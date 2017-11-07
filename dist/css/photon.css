@@ -159,13 +159,13 @@ a:not(.btn) {
   background-color: #000; }
 
 .icon-info-16 {
-  mask: url("../../node_modules/photon-icons/icons/alert/info-16.svg") no-repeat center center; }
+  mask: url("/../../node_modules/photon-icons/icons/alert/info-16.svg") no-repeat center center; }
 
 .icon-help-16 {
-  mask: url("../../node_modules/photon-icons/icons/alert/help-16.svg") no-repeat center center; }
+  mask: url("/../../node_modules/photon-icons/icons/alert/help-16.svg") no-repeat center center; }
 
 .icon-warning-16 {
-  mask: url("../../node_modules/photon-icons/icons/alert/warning-16.svg") no-repeat center center; }
+  mask: url("/../../node_modules/photon-icons/icons/alert/warning-16.svg") no-repeat center center; }
 
 .row {
   display: flex;
