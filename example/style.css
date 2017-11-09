@@ -1,3 +1,7 @@
+* {
+    font-family: Sans-Serif;
+}
+
 body {
     padding: 20px 40px;
 }
@@ -20,4 +24,12 @@ body {
 
 .col, [class*="col-"] {
     border: 1px solid #777;
+}
+
+.header-example {
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    height: 200px;
 }

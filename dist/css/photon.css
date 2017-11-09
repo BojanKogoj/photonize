@@ -212,6 +212,29 @@ a:not(.btn) {
   padding-left: 15px;
   padding-right: 15px; }
 
+.header {
+  border-bottom: 1px solid #d7d7db;
+  height: 40px;
+  padding: 4px; }
+  .header .header-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px; }
+  .header .button-back {
+    color: #0c0c0d;
+    font-size: 15px;
+    padding: 4px 8px;
+    font-weight: bold;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    line-height: 25px;
+    position: absolute; }
+    .header .button-back:hover {
+      text-decoration: none;
+      background-color: #ededf0; }
+
 * {
   box-sizing: border-box; }
 
