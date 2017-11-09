@@ -26,7 +26,7 @@ label {
         border: 1px solid $blue-50;
     }
 
-    &:invalid {
+    &:invalid, &.form-error {
         border: 1px solid $red-50;
     }
 }

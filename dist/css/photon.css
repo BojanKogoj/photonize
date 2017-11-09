@@ -67,7 +67,7 @@ label {
     border: 1px solid #737373; }
   .input-field:focus {
     border: 1px solid #0a84ff; }
-  .input-field:invalid {
+  .input-field:invalid, .input-field.form-error {
     border: 1px solid #ff0039; }
 
 a:not(.btn) {
